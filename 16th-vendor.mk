@@ -317,6 +317,25 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/16th/proprietary/vendor/bin/hw/vendor.meizu.hardware.doze.hal:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.meizu.hardware.doze.hal \
     vendor/meizu/16th/proprietary/vendor/etc/init/vendor.meizu.hardware.doze.hal.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.meizu.hardware.doze.hal.rc \
 
+    # modules kernel
+
+    vendor/meizu/16th/proprietary/vendor/lib/modules/pinctrl-wcd.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/pinctrl-wcd.ko \
+    vendor/meizu/16th/proprietary/vendor/lib/modules/snd-soc-cs35l41.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/snd-soc-cs35l41.ko \
+    vendor/meizu/16th/proprietary/vendor/lib/modules/snd-soc-cs35l41-spi.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/snd-soc-cs35l41-spi.ko \
+    vendor/meizu/16th/proprietary/vendor/lib/modules/snd-soc-sdm845.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/snd-soc-sdm845.ko \
+    vendor/meizu/16th/proprietary/vendor/lib/modules/snd-soc-wcd9xxx.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/snd-soc-wcd9xxx.ko \
+    vendor/meizu/16th/proprietary/vendor/lib/modules/snd-soc-wcd934x.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/snd-soc-wcd934x.ko \
+    vendor/meizu/16th/proprietary/vendor/lib/modules/snd-soc-wcd-mbhc.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/snd-soc-wcd-mbhc.ko \
+    vendor/meizu/16th/proprietary/vendor/lib/modules/snd-soc-wcd-spi.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/snd-soc-wcd-spi.ko \
+    vendor/meizu/16th/proprietary/vendor/lib/modules/wcd-core.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/wcd-core.ko \
+    vendor/meizu/16th/proprietary/vendor/lib/modules/wcd-dsp-glink.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/wcd-dsp-glink.ko \
+    vendor/meizu/16th/proprietary/vendor/lib/modules/modules.dep:$(TARGET_COPY_OUT_VENDOR)/lib/modules/modules.dep \
+    vendor/meizu/16th/proprietary/vendor/lib/modules/qca_cld3_wlan.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/qca_cld3_wlan.ko \
+
+    # bug fix keymaster
+    vendor/meizu/16/proprietary/vendor/bin/keymaster_getspl:$(TARGET_COPY_OUT_VENDOR)/bin/keymaster_getspl \
+    vendor/meizu/16/proprietary/vendor/bin/keymaster_getspl_script:$(TARGET_COPY_OUT_VENDOR)/bin/keymaster_getspl_script \
+
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.fm@1.0 \
     android.hardware.gnss@2.0-service-qti \
