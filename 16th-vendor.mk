@@ -339,6 +339,9 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/16/proprietary/vendor/bin/keymaster_getspl_script:$(TARGET_COPY_OUT_VENDOR)/bin/keymaster_getspl_script \
 
     # add meizu propriertary
+    vendor/meizu/16th/proprietary/lib/libbacktrace.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libbacktrace.so \
+    vendor/meizu/16th/proprietary/lib64/libbacktrace.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libbacktrace.so \
+    vendor/meizu/16th/proprietary/lib64/libunwind.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libunwind.so \
     vendor/meizu/16th/proprietary/vendor/lib64/lib_ifaa_ta_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_ifaa_ta_client.so \
     vendor/meizu/16th/proprietary/vendor/lib64/libavservices_minijail_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libavservices_minijail_vendor.so \
     vendor/meizu/16th/proprietary/vendor/lib64/libbase64.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbase64.so \
