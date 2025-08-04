@@ -1,0 +1,25 @@
+<manifest version="1.0" type="device">
+    <!-- Add meizu 16 fingerprint hal -->
+    <hal format="hidl">
+        <name>android.hardware.biometrics.fingerprint</name>
+        <transport>hwbinder</transport>
+        <version>2.3</version>
+        <interface>
+            <name>IBiometricsFingerprint</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.synaptics.fingerprint.interfaces.extensions</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>ISensorTest</name>
+            <instance>default</instance>
+        </interface>
+        <interface>
+            <name>ISteller</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+</manifest>
