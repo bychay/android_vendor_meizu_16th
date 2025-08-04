@@ -303,6 +303,9 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/16th/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.3-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.3-service \
     vendor/meizu/16th/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.3-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.3-service.rc \
     vendor/meizu/16th/proprietary/vendor/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.3-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.3-service.xml \
+    vendor/meizu/16th/proprietary/vendor/lib64/android.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.biometrics.fingerprint@2.1.so \
+    vendor/meizu/16th/proprietary/vendor/lib64/android.hardware.biometrics.fingerprint@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.biometrics.fingerprint@2.2.so \
+    vendor/meizu/16th/proprietary/vendor/lib64/android.hardware.biometrics.fingerprint@2.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.biometrics.fingerprint@2.3.so \
     vendor/meizu/16th/proprietary/vendor/lib64/libgoodixhwfingerprint.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgoodixhwfingerprint.so \
     vendor/meizu/16th/proprietary/vendor/lib64/libkeymaster_messages-goodix.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_messages-goodix.so \
     vendor/meizu/16th/proprietary/vendor/lib64/libkeymaster_portable-goodix.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_portable-goodix.so \
@@ -318,7 +321,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/16th/proprietary/vendor/etc/init/vendor.meizu.hardware.doze.hal.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.meizu.hardware.doze.hal.rc \
 
     # modules kernel
-
     vendor/meizu/16th/proprietary/vendor/lib/modules/pinctrl-wcd.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/pinctrl-wcd.ko \
     vendor/meizu/16th/proprietary/vendor/lib/modules/snd-soc-cs35l41.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/snd-soc-cs35l41.ko \
     vendor/meizu/16th/proprietary/vendor/lib/modules/snd-soc-cs35l41-spi.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/snd-soc-cs35l41-spi.ko \
@@ -335,6 +337,38 @@ PRODUCT_COPY_FILES += \
     # bug fix keymaster
     vendor/meizu/16/proprietary/vendor/bin/keymaster_getspl:$(TARGET_COPY_OUT_VENDOR)/bin/keymaster_getspl \
     vendor/meizu/16/proprietary/vendor/bin/keymaster_getspl_script:$(TARGET_COPY_OUT_VENDOR)/bin/keymaster_getspl_script \
+
+    # add meizu propriertary
+    vendor/meizu/16th/proprietary/vendor/lib64/lib_ifaa_ta_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_ifaa_ta_client.so \
+    vendor/meizu/16th/proprietary/vendor/lib64/libavservices_minijail_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libavservices_minijail_vendor.so \
+    vendor/meizu/16th/proprietary/vendor/lib64/libbase64.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbase64.so \
+    vendor/meizu/16th/proprietary/vendor/lib64/libbv28.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbv28.so \
+    vendor/meizu/16th/proprietary/vendor/lib64/libc++-v28.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc++-v28.so \
+    vendor/meizu/16th/proprietary/vendor/lib64/libcapiv2svacnn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcapiv2svacnn.so \
+    vendor/meizu/16th/proprietary/vendor/lib64/libcapiv2vop.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcapiv2vop.so \
+    vendor/meizu/16th/proprietary/vendor/lib64/libfeedbackhandler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeedbackhandler.so \
+    vendor/meizu/16th/proprietary/vendor/lib64/libflp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libflp.so \
+    vendor/meizu/16th/proprietary/vendor/lib64/libgarden.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgarden.so \
+    vendor/meizu/16th/proprietary/vendor/lib64/libgarden_haltests_e2e.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgarden_haltests_e2e.so \
+    vendor/meizu/16th/proprietary/vendor/lib64/libgf_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_ca.so \
+    vendor/meizu/16th/proprietary/vendor/lib64/libhdcp1prov.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdcp1prov.so \
+    vendor/meizu/16th/proprietary/vendor/lib64/libhdcp2p2prov.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdcp2p2prov.so \
+    vendor/meizu/16th/proprietary/vendor/lib64/libhdcpsrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdcpsrm.so \
+    vendor/meizu/16th/proprietary/vendor/lib64/liboemaids_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboemaids_vendor.so \
+    vendor/meizu/16th/proprietary/vendor/lib64/libqahw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqahw.so \
+    vendor/meizu/16th/proprietary/vendor/lib64/libqahwwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqahwwrapper.so \
+    vendor/meizu/16th/proprietary/vendor/lib64/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcci_legacy.so \
+    vendor/meizu/16th/proprietary/vendor/lib64/libqsap_sdk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqsap_sdk.so \
+    vendor/meizu/16th/proprietary/vendor/lib64/libsi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsi.so \
+    vendor/meizu/16th/proprietary/vendor/lib64/libskewknob.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libskewknob.so \
+    vendor/meizu/16th/proprietary/vendor/lib64/libsmemlog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsmemlog.so \
+    vendor/meizu/16th/proprietary/vendor/lib64/libsplh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsplh.so \
+    vendor/meizu/16th/proprietary/vendor/lib64/libstdc++.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstdc++.so \
+    vendor/meizu/16th/proprietary/vendor/lib64/libulp2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libulp2.so \
+    vendor/meizu/16th/proprietary/vendor/lib64/libvfb_render.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvfb_render.so \
+    vendor/meizu/16th/proprietary/vendor/lib64/libvfmtztransport.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvfmtztransport.so \
+    vendor/meizu/16th/proprietary/vendor/lib64/libvidhance.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvidhance.so \
+    vendor/meizu/16th/proprietary/vendor/lib64/libvmp_render.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvmp_render.so \
 
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.fm@1.0 \
