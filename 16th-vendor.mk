@@ -311,14 +311,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/16th/proprietary/vendor/lib64/libsoftkeymasterdevice-goodix.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsoftkeymasterdevice-goodix.so \
     vendor/meizu/16th/proprietary/vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so \
 
-    # fix hbm meizu
-    vendor/meizu/16th/proprietary/vendor/bin/hw/vendor.meizu.hardware.inscreen.hal:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.meizu.hardware.inscreen.hal \
-    vendor/meizu/16th/proprietary/vendor/etc/init/vendor.meizu.hardware.inscreen.hal.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.meizu.hardware.inscreen.hal.rc \
-
-    # fix doze meizu
-    vendor/meizu/16th/proprietary/vendor/bin/hw/vendor.meizu.hardware.doze.hal:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.meizu.hardware.doze.hal \
-    vendor/meizu/16th/proprietary/vendor/etc/init/vendor.meizu.hardware.doze.hal.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.meizu.hardware.doze.hal.rc \
-
     # modules kernel
     vendor/meizu/16th/proprietary/vendor/lib/modules/pinctrl-wcd.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/pinctrl-wcd.ko \
     vendor/meizu/16th/proprietary/vendor/lib/modules/snd-soc-cs35l41.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/snd-soc-cs35l41.ko \
