@@ -296,7 +296,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/16th/proprietary/vendor/lib64/vendor.qti.gnss@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@2.1.so \
     vendor/meizu/16th/proprietary/vendor/lib64/vendor.qti.gnss@3.0-service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@3.0-service.so \
     vendor/meizu/16th/proprietary/vendor/lib64/vendor.qti.gnss@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@3.0.so \
-    vendor/meizu/16th/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fm@1.0.so
+    vendor/meizu/16th/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fm@1.0.so \
 
     # fingerprint meizu propriertaty hal
     vendor/meizu/16th/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.3-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.3-service \
@@ -363,7 +363,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/16th/proprietary/vendor/lib64/libvfb_render.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvfb_render.so \
     vendor/meizu/16th/proprietary/vendor/lib64/libvfmtztransport.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvfmtztransport.so \
     vendor/meizu/16th/proprietary/vendor/lib64/libvidhance.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvidhance.so \
-    vendor/meizu/16th/proprietary/vendor/lib64/libvmp_render.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvmp_render.so \
+    vendor/meizu/16th/proprietary/vendor/lib64/libvmp_render.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvmp_render.so
 
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.fm@1.0 \
